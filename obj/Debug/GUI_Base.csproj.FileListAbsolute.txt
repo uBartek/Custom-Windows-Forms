@@ -1,0 +1,9 @@
+C:\Users\Bartek\source\repos\GUI_Base\bin\Debug\GUI_Base.exe.config
+C:\Users\Bartek\source\repos\GUI_Base\bin\Debug\GUI_Base.exe
+C:\Users\Bartek\source\repos\GUI_Base\bin\Debug\GUI_Base.pdb
+C:\Users\Bartek\source\repos\GUI_Base\obj\Debug\GUI_Base.csprojAssemblyReference.cache
+C:\Users\Bartek\source\repos\GUI_Base\obj\Debug\GUI_Base.GUI.resources
+C:\Users\Bartek\source\repos\GUI_Base\obj\Debug\GUI_Base.Properties.Resources.resources
+C:\Users\Bartek\source\repos\GUI_Base\obj\Debug\GUI_Base.csproj.GenerateResource.cache
+C:\Users\Bartek\source\repos\GUI_Base\obj\Debug\GUI_Base.exe
+C:\Users\Bartek\source\repos\GUI_Base\obj\Debug\GUI_Base.pdb
