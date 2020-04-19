@@ -43,6 +43,12 @@ namespace GUI_Base
            * disable moving
            */
             moveFormEnable = false;
+
+            if (MousePosition.Y == 0 && fullSizeWindow == false)
+            {
+                buttonResize_Click(sender, e);
+                panelTop_MouseUp(sender, e);
+            }
         }
 
         private void panelTop_MouseDown(object sender, MouseEventArgs e)
@@ -65,6 +71,14 @@ namespace GUI_Base
             if (moveFormEnable)
             {
                 this.SetDesktopLocation(MousePosition.X - cursorPositionX, MousePosition.Y - cursorPositionY);
+
+                if (fullSizeWindow == true)
+                {
+                    formPositionX = (int)((double)MousePosition.X - (double)e.Location.X / (double)this.Size.Width * (double)formSizeX);
+                    formPositionY = e.Location.Y;
+                    cursorPositionX = (int)((double)e.Location.X / (double)this.Size.Width * (double)formSizeX);
+                    buttonResize_Click(sender, e);
+                }
             }
         }
 
@@ -131,14 +145,7 @@ namespace GUI_Base
             panelLeftForResize.Visible ^= true;
             panelTopForResize.Visible ^= true;
             panelBottomForResize.Visible ^= true;
-            panelRightTopCornerForResize1.Visible ^= true;
-            panelRightTopCornerForResize2.Visible ^= true;
-            panelRightBottomCornerForResize1.Visible ^= true;
-            panelRightBottomCornerForResize2.Visible ^= true;
-            panelLeftTopCornerForResize1.Visible ^= true;
-            panelLeftTopCornerForResize2.Visible ^= true;
-            panelLeftBottomCornerForResize1.Visible ^= true;
-            panelLeftBottomCornerForResize2.Visible ^= true;
+            
         }
 
         private void buttonMinimize_Click(object sender, EventArgs e)

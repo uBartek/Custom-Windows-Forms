@@ -72,8 +72,9 @@
             this.panelRightTopCornerForResize2.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.panelRightTopCornerForResize2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelRightTopCornerForResize2.Location = new System.Drawing.Point(0, 0);
+            this.panelRightTopCornerForResize2.MinimumSize = new System.Drawing.Size(4, 8);
             this.panelRightTopCornerForResize2.Name = "panelRightTopCornerForResize2";
-            this.panelRightTopCornerForResize2.Size = new System.Drawing.Size(2, 8);
+            this.panelRightTopCornerForResize2.Size = new System.Drawing.Size(4, 8);
             this.panelRightTopCornerForResize2.TabIndex = 1;
             this.panelRightTopCornerForResize2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelRightTopCornerForResize2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
@@ -81,11 +82,13 @@
             // 
             // panelRightBottomCornerForResize1
             // 
+            this.panelRightBottomCornerForResize1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(153)))), ((int)(((byte)(84)))));
             this.panelRightBottomCornerForResize1.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
             this.panelRightBottomCornerForResize1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelRightBottomCornerForResize1.Location = new System.Drawing.Point(0, 442);
+            this.panelRightBottomCornerForResize1.MinimumSize = new System.Drawing.Size(4, 8);
             this.panelRightBottomCornerForResize1.Name = "panelRightBottomCornerForResize1";
-            this.panelRightBottomCornerForResize1.Size = new System.Drawing.Size(2, 8);
+            this.panelRightBottomCornerForResize1.Size = new System.Drawing.Size(4, 8);
             this.panelRightBottomCornerForResize1.TabIndex = 0;
             this.panelRightBottomCornerForResize1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelRightBottomCornerForResize1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
@@ -111,8 +114,9 @@
             this.panelLeftBottomCornerForResize2.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.panelLeftBottomCornerForResize2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftBottomCornerForResize2.Location = new System.Drawing.Point(0, 0);
+            this.panelLeftBottomCornerForResize2.MinimumSize = new System.Drawing.Size(8, 4);
             this.panelLeftBottomCornerForResize2.Name = "panelLeftBottomCornerForResize2";
-            this.panelLeftBottomCornerForResize2.Size = new System.Drawing.Size(8, 2);
+            this.panelLeftBottomCornerForResize2.Size = new System.Drawing.Size(8, 4);
             this.panelLeftBottomCornerForResize2.TabIndex = 1;
             this.panelLeftBottomCornerForResize2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelLeftBottomCornerForResize2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
@@ -123,8 +127,9 @@
             this.panelRightBottomCornerForResize2.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
             this.panelRightBottomCornerForResize2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelRightBottomCornerForResize2.Location = new System.Drawing.Point(790, 0);
+            this.panelRightBottomCornerForResize2.MinimumSize = new System.Drawing.Size(8, 4);
             this.panelRightBottomCornerForResize2.Name = "panelRightBottomCornerForResize2";
-            this.panelRightBottomCornerForResize2.Size = new System.Drawing.Size(8, 2);
+            this.panelRightBottomCornerForResize2.Size = new System.Drawing.Size(8, 4);
             this.panelRightBottomCornerForResize2.TabIndex = 0;
             this.panelRightBottomCornerForResize2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelRightBottomCornerForResize2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
@@ -150,8 +155,9 @@
             this.panelLeftTopCornerForResize1.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
             this.panelLeftTopCornerForResize1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLeftTopCornerForResize1.Location = new System.Drawing.Point(0, 0);
+            this.panelLeftTopCornerForResize1.MinimumSize = new System.Drawing.Size(4, 8);
             this.panelLeftTopCornerForResize1.Name = "panelLeftTopCornerForResize1";
-            this.panelLeftTopCornerForResize1.Size = new System.Drawing.Size(2, 8);
+            this.panelLeftTopCornerForResize1.Size = new System.Drawing.Size(4, 8);
             this.panelLeftTopCornerForResize1.TabIndex = 3;
             this.panelLeftTopCornerForResize1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelLeftTopCornerForResize1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
@@ -162,8 +168,9 @@
             this.panelLeftBottomCornerForResize1.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.panelLeftBottomCornerForResize1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelLeftBottomCornerForResize1.Location = new System.Drawing.Point(0, 440);
+            this.panelLeftBottomCornerForResize1.MinimumSize = new System.Drawing.Size(4, 8);
             this.panelLeftBottomCornerForResize1.Name = "panelLeftBottomCornerForResize1";
-            this.panelLeftBottomCornerForResize1.Size = new System.Drawing.Size(2, 8);
+            this.panelLeftBottomCornerForResize1.Size = new System.Drawing.Size(4, 8);
             this.panelLeftBottomCornerForResize1.TabIndex = 2;
             this.panelLeftBottomCornerForResize1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelLeftBottomCornerForResize1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
@@ -189,8 +196,9 @@
             this.panelLeftTopCornerForResize2.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
             this.panelLeftTopCornerForResize2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLeftTopCornerForResize2.Location = new System.Drawing.Point(0, 0);
+            this.panelLeftTopCornerForResize2.MinimumSize = new System.Drawing.Size(8, 4);
             this.panelLeftTopCornerForResize2.Name = "panelLeftTopCornerForResize2";
-            this.panelLeftTopCornerForResize2.Size = new System.Drawing.Size(8, 2);
+            this.panelLeftTopCornerForResize2.Size = new System.Drawing.Size(8, 4);
             this.panelLeftTopCornerForResize2.TabIndex = 2;
             this.panelLeftTopCornerForResize2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelLeftTopCornerForResize2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
@@ -201,8 +209,9 @@
             this.panelRightTopCornerForResize1.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.panelRightTopCornerForResize1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelRightTopCornerForResize1.Location = new System.Drawing.Point(788, 0);
+            this.panelRightTopCornerForResize1.MinimumSize = new System.Drawing.Size(8, 4);
             this.panelRightTopCornerForResize1.Name = "panelRightTopCornerForResize1";
-            this.panelRightTopCornerForResize1.Size = new System.Drawing.Size(8, 2);
+            this.panelRightTopCornerForResize1.Size = new System.Drawing.Size(8, 4);
             this.panelRightTopCornerForResize1.TabIndex = 1;
             this.panelRightTopCornerForResize1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.borders_MouseDown);
             this.panelRightTopCornerForResize1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.borders_MouseMove);
